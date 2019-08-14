@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<title>Ava Biery - Poetry</title>
+  <link rel="shortcut icon" href="assets/ablogo.ico">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<a href="index.html"><h1>Ava Biery</h1></a>
+			<nav>
+				<ul>
+          <li><a href="about.html">About</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="poetry.html">Poetry</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			<nav>
+		</div>
+	</header>
+	<div class="content">
+		<h2>Poetry</h2>
+    <p>My work gravitates towards themes of rural life, nature, grief, trauma, and gender. My writing influences include Ilya Kaminsky, Jungmin Yoon, Agha Shahid Ali,
+      Michael Chabon, Jericho Brown, Jamie Stewart, Phil Elverum, Sufjan Stevens, Joanna Newsom, and countless other writers, poets, and lyricists.
+      Note that in order to avoid my work from being disqualified on submission to certain magazines, I will only feature work on this page I don't intend
+      to publish.</p>
+      <div class="poetry">
+        <div>
+          <h2>Smallness Visited</h2>
+          <p>
+             For most of life<br>
+             How I lived, what I did, was meaningless<br>
+             I grew up nowhere. I did nothing<br>
+             Most of my hours were spent in a room with a screen of some kind<br>
+             And the reprieve from this was to explore my backyard<br>
+             For my backyard was the woods, and the quarry, and the Vermilion river<br>
+             This was my event in an eventless life<br><br>
+             But whenever I needed that – an event<br>
+             (I didn’t realize at the time, but)<br>
+             It played out as best as it could<br>
+             Lucky, so lucky, I’ve always been so lucky<br>
+             I get lost. I find the river. I follow it home<br>
+             I hear noises. I’m scared. I follow the Vermilion river<br>
+             It leads home. The noises fade. They don’t follow. They don’t reach<br><br>
+             When I was in high school, a man from the trailer park next to my house<br>
+             Was arrested after threatening violence on someone<br>
+             He claimed to be a werewolf. They found multiple guns and knives in his trailer<br>
+             Check my arms. There are no bite marks from this lycanthrope<br><br>
+             You don’t recognize it as luck<br>
+             Until you find people who didn’t have it<br>
+             Whose events were meant to be strolls in the woods<br>
+             And turned into mauling by wolves<br><br>
+             In middle school, I joined the swim team<br>
+             And bemoaned that decision every so often<br>
+             I dive into the pool, and the water is cold<br>
+             But the water is safe. How could I complain?
+          </p>
+        </div>
+        <div>
+          <h2>I Will Show You How to Garden</h2>
+          <p>
+            I have tended to this garden<br>
+            For some time now<br>
+            And it still feels funny when the ants crawl<br>
+            Into the insides of my gloves<br>
+            When the prickle of weeds scratches my wrists<br>
+            I spray pesticide and preserve the Spring<br>
+            The way it blooms<br><br>
+            Like the flowers wild and red<br>
+            I was wild and red, and I held<br>
+            A Jerusalem cricket in my hand<br>
+            It was a double misnomer<br>
+            The wrong bug from the wrong country<br>
+            I am a misnomer, but then so is my lover<br>
+            I suppose that isn’t so rare<br><br>
+
+            My trowel strikes at the dry summer Earth<br>
+            Packed and impenetrable<br>
+            But there is a home to be dug here<br>
+            For new fragrant and admirable life<br>
+            How the season resists my nurture<br>
+            How a season shapes a garden<br>
+            How the weeds just await my neglect<br><br>
+            The garden of our lives past was barren<br>
+            And all of the bulbs with potential, uprooted<br>
+            The summer sun oppressive<br>
+            No river for irrigation<br>
+            And it was in a rural plot<br>
+            Somewhere where no one listens<br>
+            To a gardener in anguish<br><br>
+
+            There is so much I could teach you<br>
+            If you come sit next to me in the mulch<br>
+            Your overalls already dirty<br>
+            The bug bites already lining your ankles<br>
+            I will show you how to garden<br><br>
+          </p>
+        </div>
+      </div>
+  </div>
+
+  <div class="pagebottom">
+  </div>
+    <script>
+  	  const links = document.querySelectorAll('nav li');
+  		function highlightLink() {
+  			this.childNodes.forEach(child => child.style.color = '#d9bbf0');
+  		}
+  		function unhighlightLink() {
+  			this.childNodes.forEach(child => child.style.color = 'white');
+  		}
+  		links.forEach(link => link.addEventListener('mouseover', highlightLink));
+  		links.forEach(link => link.addEventListener('mouseout', unhighlightLink));
+  	</script>
+</body>
+</html>
