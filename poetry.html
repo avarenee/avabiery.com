@@ -7,19 +7,7 @@
 	<link rel="stylesheet" href="index.css">
 </head>
 <body>
-	<header>
-		<div class="container">
-			<a href="index.html"><h1>Ava Biery</h1></a>
-			<nav>
-				<ul>
-          <li><a href="about.html">About</a></li>
-					<li><a href="projects.html">Projects</a></li>
-					<li><a href="poetry.html">Poetry</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			<nav>
-		</div>
-	</header>
+	<header id="header"></header>
 	<div class="content">
 		<h2>Poetry</h2>
     <p>My work gravitates towards themes of rural life, nature, grief, trauma, and gender. My writing influences include Ilya Kaminsky, Jungmin Yoon, Agha Shahid Ali,
@@ -103,16 +91,6 @@
 
   <div class="pagebottom">
   </div>
-    <script>
-  	  const links = document.querySelectorAll('nav li');
-  		function highlightLink() {
-  			this.childNodes.forEach(child => child.style.color = '#d9bbf0');
-  		}
-  		function unhighlightLink() {
-  			this.childNodes.forEach(child => child.style.color = 'white');
-  		}
-  		links.forEach(link => link.addEventListener('mouseover', highlightLink));
-  		links.forEach(link => link.addEventListener('mouseout', unhighlightLink));
-  	</script>
+    <script src="navbar.js"></script>
 </body>
 </html>

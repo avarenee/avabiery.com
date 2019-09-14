@@ -51,6 +51,10 @@ nav a {
   font-size: 18px;
 }
 
+nav a:hover {
+  color: #d9bbf0;
+}
+
 .content {
   width: 800px;
   margin-left: auto;
