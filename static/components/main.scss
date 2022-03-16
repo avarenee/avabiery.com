@@ -1,0 +1,62 @@
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=021be8f0-7e62-43f2-9792-0af014ffb8e4&fontids=5632275,5632282");
+
+@font-face{
+    font-family:"Neue Plak W02 Regular";
+    src:url("../Fonts/5632275/3e302bc3-bfd3-419c-9eee-8afcc4e26b2d.woff2") format("woff2"),url("../Fonts/5632275/2a84334f-b787-428b-a0f6-2eeffe361314.woff") format("woff");
+}
+@font-face{
+    font-family:"Neue Plak W02 Bold";
+    src:url("../Fonts/5632282/1ebc854b-3da8-461f-8d8e-dba64af5f289.woff2") format("woff2"),url("../Fonts/5632282/c30de3ba-d68d-4378-8606-b546ab673f98.woff") format("woff");
+}
+
+.main-content__inner {
+  display: flex;
+  flex-direction: column;
+  margin: 0 18px;
+  color: black;
+  font-kerning: 1px;
+  line-height: 1.6;
+  font-family: "Neue Plak W02 Regular";
+  p {
+    margin: 18px auto 0 auto;
+    max-width: 388px;
+    font-size: 16px;
+  }
+  .widget {
+    margin: 20px 0;
+  }
+  @media screen and (min-width: 480px) {
+    p {
+      font-size: 18px;
+      width: 388px;
+      margin: 18px auto 0 auto;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    p {
+      margin: 28px 18px 0 36px;
+      flex: 0 1 auto;
+      width: auto;
+    }
+    .widget-container {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      flex: 0 0 322px;
+    }
+    .widget {
+      margin: 10px 0;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    width: calc(80vw - 36px);
+    margin-left: auto;
+    p {
+      font-size: 20px;
+      max-width: calc(60vw - 322px);
+    }
+  }
+}

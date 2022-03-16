@@ -1,0 +1,80 @@
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=021be8f0-7e62-43f2-9792-0af014ffb8e4&fontids=5632275,5632282,6185674");
+
+@font-face{
+    font-family:"Neue Plak W02 Regular";
+    src:url("../Fonts/5632275/3e302bc3-bfd3-419c-9eee-8afcc4e26b2d.woff2") format("woff2"),url("../Fonts/5632275/2a84334f-b787-428b-a0f6-2eeffe361314.woff") format("woff");
+}
+@font-face{
+    font-family:"Neue Plak W02 Bold";
+    src:url("../Fonts/5632282/1ebc854b-3da8-461f-8d8e-dba64af5f289.woff2") format("woff2"),url("../Fonts/5632282/c30de3ba-d68d-4378-8606-b546ab673f98.woff") format("woff");
+}
+
+@font-face{
+  font-family:"Larken W05 ExtraBold";
+  src:url("../Fonts/6185674/f139fc42-9df3-4163-949b-0d6b16317499.woff2") format("woff2"),url("../Fonts/6185674/5ef3ea8c-3418-4245-8faa-753d262fcecd.woff") format("woff");
+}
+
+body {
+  font-family: "Neue Plak W02 Regular";
+  background-color: #fbc91a;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.content a {
+  text-decoration: none;
+}
+
+.content.about img {
+  float: left;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  margin-top: 48px;
+  background-color: #ddd;
+}
+
+td {
+  border-radius: 4px;
+}
+
+.content .projects .logo {
+  text-align: center;
+  vertical-align: top;
+}
+
+.content .projects .description {
+  vertical-align: top;
+  border: 1px solid #bbb;
+  padding: 20px;
+  background-color: white;
+}
+
+.content .poetry {
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #e5e5d4;
+  margin-top: 96px;
+  padding: 0 48px 48px 48px;
+  border-top: 2px dashed #9c8d04;
+  border-bottom: 2px dashed #9c8d04;
+  border-left: 1px solid #9c8d04;
+  border-right: 1px solid #9c8d04;
+}
+
+.content .poetry h2 {
+  font-size: 48px;
+}
+
+.content .poetry p {
+  font-size: 20px;
+}
+
+.content .poetry div {
+  padding-bottom: 24px;
+}
